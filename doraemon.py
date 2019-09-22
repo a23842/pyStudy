@@ -7,7 +7,7 @@ def penup():
     t.penup()
 
 
-def goto(e):
+def goto(e, y):
     t.goto(e)
 
 
@@ -47,8 +47,8 @@ def home():
     t.home()
 
 
-def tracer(e):
-    t.tracer(e)
+def tracer(x, y):
+    t.tracer(x, y)
 
 
 def my_goto(x, y):
@@ -129,6 +129,10 @@ def nose():
     begin_fill()
     circle(20)
     end_fill()
+
+
+def pensize(param):
+    t.pensize(param)
 
 
 def black_eyes():
